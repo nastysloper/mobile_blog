@@ -1,5 +1,9 @@
 require 'sinatra'
 
 get '/' do
-  "I've learned a lot today!"
+  "Structure content first."
+end
+
+get '/home' do
+  erb :homepage
 end
